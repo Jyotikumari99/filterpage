@@ -1,0 +1,321 @@
+.App {
+  
+  text-align: center;
+  
+  ;
+}
+body{
+  background-color: #F8EEE3;
+
+}
+
+.heading{
+  width: 360px;
+height: 38px;
+
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 38px;
+/* identical to box height, or 127% */
+
+text-align: center;
+
+/* Grey/grey-900 */
+
+color: #2B2F38
+
+}
+
+.para{
+  width: 360px;
+height: 24px;
+position: relative;
+bottom: 17px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+text-align: center;
+
+color: #064F38;
+}
+
+.lableName{
+  width: 84px;
+height: 20px;
+position: relative;
+right:185px;
+
+/* Body 2/Medium */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+
+/* Grey/grey-700 */
+
+color: #48505E;
+}
+
+.box{
+  box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 10px 14px;
+gap: 8px;
+
+width: 360px;
+height: 44px;
+
+/* White */
+
+background: #FFFFFF;
+/* Gray/300 */
+
+border: 1px solid #D0D5DD;
+box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+border-radius: 8px;
+}
+
+.imgg{
+  box-sizing: border-box;
+
+width: 16px;
+height: 16px;
+position: relative;
+right: 210px;
+
+/* White */
+
+background: #FFFFFF;
+/* Gray/300 */
+
+border: 1px solid #D0D5DD;
+border-radius: 4px;
+}
+.remember{
+  width: 153px;
+height: 20px;
+position: relative;
+bottom: 35px;
+left: 20px;
+
+/* Body 2/Medium */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+
+/* Grey/grey-700 */
+
+color: #48505E;
+}
+
+a{
+  width: 113px;
+height: 20px;
+position: relative;
+bottom:68px;
+
+
+/* Body 2/Medium */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+
+/* Primary/primary-600 */
+
+color: #1366D9;
+}
+
+.signin{
+  width: 324px;
+height: 24px;
+position: relative;
+bottom: 50px;
+
+/* Body 1/Medium */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+text-align: center;
+
+/* White */
+
+color: #FFFFFF;
+box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 18px;
+gap: 8px;
+
+width: 360px;
+height: 44px;
+
+/* Primary/primary-600 */
+
+background: #1366D9;
+/* Primary/primary-600 */
+
+border: 1px solid #1366D9;
+box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+border-radius: 4px;
+}
+
+.goo{
+  position: absolute;
+bottom: 145px;
+z-index: 2;
+left: 15px;
+  
+}
+.signgoo{
+width: 148px;
+height: 24px;
+position: relative;
+bottom: 50px;
+
+
+/* Body 1/Medium */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+
+/* Grey/grey-800 */
+
+color: #383E49;
+box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 16px;
+gap: 12px;
+
+width: 360px;
+height: 44px;
+
+/* White */
+
+background: #FFFFFF;
+/* Gray/300 */
+
+border: 1px solid #D0D5DD;
+box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+border-radius: 4px;
+}
+.dont{
+  width: 155px;
+height: 20px;
+position: relative;
+bottom: 80px ;
+
+/* Body 2/Regular */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+
+/* Grey/grey-500 */
+
+color: #667085;
+}
+
+.signup{
+  width: 51px;
+  height: 20px;
+  bottom: 115px;
+  right: 60px;
+  position: relative;
+
+
+
+/* Body 2/Medium */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+
+/* Primary/primary-600 */
+
+color: #1366D9;
+}
+
+.dontpos{
+ position: relative;
+ left: 70px;
+ top: 12px;
+}
+.login-main{
+  width: 30%;
+
+  top: 20%;
+  position: absolute;
+  left: 842px;
+  
+}
+
+.big{
+  width: 25%;
+  
+  position: absolute;
+  right: 60%;
+  top: 20%;
+}
+
+.small{
+  position: absolute;
+  right: 500px;
+  top: 100px;
+  
+}
